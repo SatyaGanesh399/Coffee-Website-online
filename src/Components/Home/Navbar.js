@@ -1,5 +1,5 @@
 import React from 'react'
-import './Home.css'
+import './Navbar.css'
 import Logo from '../../Assests/Logo.png'
 export default function 
 () {

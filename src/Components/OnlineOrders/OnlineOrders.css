@@ -1,0 +1,84 @@
+.all-orders{
+    display: flex;
+    overflow: scroll;
+}
+.order-title{
+    text-align: left;
+    /* margin-bottom: 20px; */
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-left: 50px;
+}
+.orders-section{
+    background-color: #F5EFE6;
+}
+.order-card{
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    transition: 0.4s ease-in-out;
+}
+.order-card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+.prices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -8px;
+}
+.prices .item-price{
+    font-size: 1rem;
+    margin-right: 5px;
+}
+.discounted-item-price{
+    font-size: 1.2rem;
+}
+.order-image{
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+    margin: 7px;
+    padding: 2px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+.order-image:hover{
+    transform: scale(105%);
+}
+.order-name{
+    color: #797467;
+}
+.buy-button{
+    padding: 5px;
+    width: 70px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    background: transparent;
+    border : 2px solid #3B2F2F;
+    color: #3B2F2F;
+    margin: 10px 20px;
+}
+.buy-button:hover{
+    background-color: #3B2F2F;
+    color: aliceblue;
+}
+.add-button{
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    color: #786b6b;
+    margin: 10px 20px;
+    background: transparent;
+    border : 2px solid #3B2F2F;
+}
+.add-button:hover{
+    background-color: #786b6b;
+    color: aliceblue;
+}
+.buttons{
+    /* margin: 10px; */
+    display: flex;
+    margin-bottom: 10px;
+}
