@@ -1,9 +1,15 @@
+:root {
+    --light : white;
+    --medium : #797467;
+    --dark : #3B2F2F;
+    --text : #6c6d6d;
+  }
 .whole-footer{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: #3B2F2F;
-    color: aliceblue;
+    background-color: var(--dark);
+    color: var(--light);
     padding: 30px;
 }
 .footer-left{
@@ -23,7 +29,7 @@
     font-size: 0.9rem;
 }
 .info-link:hover{
-    color: #786b6b;
+    color: var(--medium);
 }
 .info-link-service{
     font-size: 1.1rem;
@@ -40,7 +46,7 @@
     outline: none;
     background: transparent;
     text-indent: 4px;
-    border-bottom: 0.5px solid #786b6b;
+    border-bottom: 0.5px solid var(--medium);
 }
 .arrow-symbol{
     font-size: 1.2rem;

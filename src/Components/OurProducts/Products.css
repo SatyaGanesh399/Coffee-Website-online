@@ -1,11 +1,15 @@
+:root {
+    --light : white;
+    --dark : #3B2F2F;
+    --text : #6c6d6d;
+  }
 .products{
-    background-color: #F5EFE6;
-    
+    background-color: var(--light);
     padding: 20px;
 }
 .products-heading{
     padding: 10px;
-    color: #3B2F2F;
+    color: var(--text);
 }
 .products-items{
     display: flex;
@@ -16,7 +20,7 @@
 }
 .product-card{
     /* border: 1px solid black; */
-    background-color: #E8DFCA;
+    background-color: var(--light);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 30px;
     border-top-left-radius: 10px;
@@ -34,6 +38,6 @@
 }
 .product-title{
     margin-top: 12px;
-    color: #797467;
+    color: var(--text);
     
 }
