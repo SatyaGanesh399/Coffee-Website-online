@@ -11,6 +11,13 @@ function Footer() {
           <p className="info-link">Locate Stores</p>
         </div>
         <div className="footer-left-right">
+          <p className="info-link-service">OFFERS & REWARDS</p>
+          <p className="info-link">Coffee Club</p>
+          <p className="info-link">Coffee Coupons</p>
+        </div>
+      </div>
+      <div className="footer-right">
+        <div className="footer-right-left">
           <p className="info-link-service">CUSTOMER CARE</p>
           <p className="info-link">Track Order</p>
           <p className="info-link">Shipping Policy</p>
@@ -18,16 +25,9 @@ function Footer() {
           <p className="info-link">Privacy Policy</p>
           <p className="info-link">FAQs</p>
         </div>
-      </div>
-      <div className="footer-right">
-        <div className="footer-right-left">
-          <p className="info-link-service">OFFERS & REWARDS</p>
-          <p className="info-link">Coffee Club</p>
-          <p className="info-link">Coffee Coupons</p>
-        </div>
         <div className="footer-right-right">
             <div className="signup-text">
-          <p>SIGN UP FOR OUR NEWSLETTER</p>
+          <p className="info-link-service">SIGN UP FOR OUR NEWSLETTER</p>
           <p>
             For Coffee Colabarations, <br /> Please Contact us.
           </p>

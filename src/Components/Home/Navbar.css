@@ -4,76 +4,61 @@
     font-family: 'Roboto', sans-serif;
 }
 :root {
-    --light : white;
-    --dark : #3B2F2F;
-    --text : #6c6d6d;
+    --light : #F1F6F9;
+    --medium : #145374;
+    --dark : #14274E;
+    --text : #393E46;
   }
-.navbar{
-    background-color: var(--light);
+.navbar-comp{
+    box-sizing: border-box;
     font-size: 1.1rem;
-    display: grid;
-    grid-template-columns: 0.5fr 1.5fr 0.5fr;
-    place-items: center;
-    height: 60px;
-    color: var(--text);
 }
-.company-logo{
-    width: 50px;
-}
-.navbar-left{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.navbar-left h4{
-    letter-spacing: 1px;
+.navbar-title{
+    margin-left: 50px;
     font-weight: 600;
-    font-size: 1.4rem;
-    color: var(--text);
-    margin-top: 5px;
-}
-.navbar-middle ul{
-    display: flex;
-    gap: 20px;
-    margin-top: 10px;
-}
-.navbar-middle ul li{
-    position: relative;
-    font-size: 1rem;
-    text-decoration: none;
-    list-style: none;
-    transition: 0.3s ease-in-out;
-}
-
-.navbar-middle ul li:hover{
-    color: var(--dark);
-    text-decoration: underline;
-    text-underline-offset: 8px;
-    text-decoration-thickness: 3px
-}
-.navbar-right{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-.search-box{
-    height: 30px;
-    border-radius: 5px;
-    border: 0.5px solid var(--medium);
-    text-indent: 5px;
-    background-color: var(--light);
-}
-.search-button{
-    
-    color: white;
-    border-radius: 5px;
-    border: none;
-    background-color: var(--dark);
-    margin-right: 10px;
-    padding: 5px;
+    font-size: 1.8rem;
 }
 .carousel-images{
-    width: 100%;
+    margin: auto;
+    background-color: var(--light);
     height: 70vh;
     overflow: hidden;
+    box-sizing: border-box;
+}
+.car-image{
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+}
+.search-button:hover{
+    background-color: var(--dark) !important;
+    color: var(--light);
+}
+.toggle-button-on{
+    display: block;
+    font-size: 3rem;
+    background-color: var(--text);
+    border-radius: 50%;
+}
+.toggle-button-off{
+    display: none;
+    font-size: 3rem;
+    color: white;
+    background-color: var(--text);
+    border-radius: 50%;
+}
+
+.delight-logo{
+    width: 100px;
+    margin: -40px 50px;
+    position: relative;
+    top: 5px;
+}
+
+@media screen and (max-width : 1000px) {
+    .navbar-title{
+        margin: auto;
+        position: relative;
+        transform: translate(20px);
+    }
 }

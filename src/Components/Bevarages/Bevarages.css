@@ -1,8 +1,8 @@
 :root {
-    --light : white;
-    --medium : #797467;
-    --dark : #3B2F2F;
-    --text : #6c6d6d;
+    --light : #F1F6F9;
+    --medium : #145374;
+    --dark : #14274E;
+    --text : #393E46;
   }
 .all-orders{
     display: flex;
@@ -18,7 +18,7 @@
     margin-left: 50px;
 }
 .orders-section{
-    background-color: var(--light);
+    /* background-color: var(--light); */
 }
 .order-card{
     border-radius: 4px;

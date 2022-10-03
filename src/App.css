@@ -1,12 +1,22 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
+:root {
+  --light : #F1F6F9;
+  --medium : #145374;
+  --dark : #14274E;
+  --text : #393E46;
+}
+
 .App {
   text-align: center;
   font-family: 'Roboto', sans-serif;
+  width: 100vw;
+  box-sizing: border-box;
+  margin: auto;
 }
 .online-orders{
-  background-color:#3B2F2F;
+  background-color: var(--dark);
   padding: 10px;
-  color: #E8DFCA;
+  color: var(--light);
   font-weight: 400;
   letter-spacing: 0.5px;
   margin: 0 0;
