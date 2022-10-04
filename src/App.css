@@ -21,4 +21,32 @@
   letter-spacing: 0.5px;
   margin: 0 0;
 }
+.shopping-cart{
+  width: 45px;
+  padding: 5px;
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  background-color: var(--dark);
+  border-radius: 50%;
+  color: var(--light);
+  z-index: 100;
+}
+.item-counter{
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  padding: 2px;
+  font-size: 1.1rem;
+  z-index: 100;
+  /* border-radius: 50%; */
+  
+}
+.cart{
+
+  letter-spacing: 2px;
+}
+.cart:hover{
+    display: block;
+}
 

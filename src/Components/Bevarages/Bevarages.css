@@ -59,10 +59,10 @@
     color: var(--medium);
 }
 .buy-button{
-    padding: 5px;
+    padding: 2px;
     width: 70px;
     border-radius: 5px;
-    font-size: 1.1rem;
+    font-size: 1rem;
     background: transparent;
     border : 2px solid var(--dark);
     color: var(--dark);
@@ -73,13 +73,22 @@
     color: var(--light);
 }
 .add-button{
-    padding: 5px;
+    padding: 2px;
     border-radius: 5px;
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: var(--medium);
-    margin: 10px 20px;
+    margin: 10px 10px;
     background: transparent;
-    border : 2px solid var(--dark);
+    border: 2px solid var(--dark);
+}
+.added-to-cart{
+    padding: 2px;
+    border-radius: 5px;
+    font-size: rem;
+    color: var(--light);
+    margin: 10px 20px;
+    background: var(--dark);
+    border : 2px solid var(--medium);
 }
 .add-button:hover{
     background-color: var(--medium);
@@ -88,5 +97,7 @@
 .buttons{
     /* margin: 10px; */
     display: flex;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 10px;
 }
